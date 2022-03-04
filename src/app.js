@@ -26,13 +26,13 @@ let generateExcuse = () => {
 
   return (
     pronoun[proIndex] +
-    "" +
+    " " +
     subject[subjIndex] +
-    "" +
+    " " +
     action[actIndex] +
-    "" +
+    " " +
     possession[possIndex] +
-    "" +
+    " " +
     where[whereIndex]
   );
 };
